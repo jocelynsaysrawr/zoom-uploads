@@ -83,3 +83,28 @@ Please clear out staging folder once video has been uploaded to youtube.
     * use [bit.ly](https://bitly.com/) to shorten url
 * Delete video file from staging bucket
 * Delete resources file from staging bucket
+
+### Move File from Staging Bucket to Cohort Bucket via AWS CLI
+**Add alias to `~/.zshrc`:**
+* add the following to the bottom of `.zshrc` file for cyber classes
+    * ```
+        # move file from cyber-staging to cyber-cohort-2       
+        alias move-staging-cyber() {
+            aws s3 mv s3://devleague-instructor-videos/cyber-staging/$1 s3://devleague-instructor-videos/cyber-cohort-2/$1 --profile devleague  
+        }
+    * remove `--profile devleague` flag if devleague account is your default
+* add the following to the bottom of `.zshrc` file for JS Part Time classes
+    * ```
+        # move file from js-pt-staging to js-pt-cohort-24    
+        alias move-staging-cyber() {
+            aws s3 mv s3://devleague-instructor-videos/js-pt-staging/$1 s3://devleague-instructor-videos/js-pt-cohort-24/$1 --profile devleague  
+        }
+    * remove `--profile devleague` flag if devleague account is your default
+* add the following to the bottom of `.zshrc` file for JS Part Time classes
+    * ```
+        # move file from js-ft-staging to js-ft-cohort-25    
+        alias move-staging-cyber() {
+            aws s3 mv s3://devleague-instructor-videos/js-ft-staging/$1 s3://devleague-instructor-videos/js-ft-cohort-25/$1 --profile devleague  
+        }      
+    * remove `--profile devleague` flag if devleague account is your default
+* run `source .zshrc` to evaluate commands added to the file
