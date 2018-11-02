@@ -77,9 +77,9 @@ Please include information to be used in YouTube upload.
 **note: processing may take a while**
 
 ### Clean Up S3 Staging Bucket
-Please clear out staging folder once video has been loaded to youtube.
+Please clear out staging folder once video has been uploaded to youtube.
 * Copy video file in staging bucket and paste into cohort bucket
 * Copy url in cohort bucket and add to AirTable
-    * use bit.ly to shorten url
+    * use [bit.ly](https://bitly.com/) to shorten url
 * Delete video file from staging bucket
 * Delete resources file from staging bucket
