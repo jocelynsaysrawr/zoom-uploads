@@ -57,4 +57,4 @@ Please include information to be used in YouTube upload.
 ### Uploading to YouTube
 * Download file from S3 staging folder
 * Upload file to YouTube
-* ![youtube editor](https://www.github.com/zoom-uploads/assets/YouTube-Editing-View.png)
+* ![youtube editor](https://github.com/jocelynsaysrawr/zoom-uploads/blob/master/assets/YouTube-Editing-View.png)
