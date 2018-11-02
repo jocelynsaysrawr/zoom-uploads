@@ -57,4 +57,29 @@ Please include information to be used in YouTube upload.
 ### Uploading to YouTube
 * Download file from S3 staging folder
 * Upload file to YouTube
-* ![youtube editor](https://github.com/jocelynsaysrawr/zoom-uploads/blob/master/assets/YouTube-Editing-View.png)
+* Use information in accompanying video resources file to fill out information in the editor view
+
+**Editor View:**
+![youtube editor](https://github.com/jocelynsaysrawr/zoom-uploads/blob/master/assets/YouTube-Editing-View.png)
+
+**Naming convention for YouTube uploads:**
+* `Title of Lecture - Monday, January, 1, 2018`
+
+**Fields to Edit:**
+* Add description - include any files or links
+* Add tags
+* Change to Private video
+* Share with cohort email list
+* Add to Cohort Playlist
+* Save changes 
+* Add link to AirTable
+
+**note: processing may take a while**
+
+### Clean Up S3 Staging Bucket
+Please clear out staging folder once video has been loaded to youtube.
+* Copy video file in staging bucket and paste into cohort bucket
+* Copy url in cohort bucket and add to AirTable
+    * use bit.ly to shorten url
+* Delete video file from staging bucket
+* Delete resources file from staging bucket
